@@ -1,6 +1,11 @@
 # Laravel Service Pattern
 A minimal package to implement Service Design Pattern in Laravel.
 
+[![Latest Stable Version](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/v)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern) 
+[![Total Downloads](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/downloads)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern) 
+[![License](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/license)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern) 
+[![PHP Version Require](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/require/php)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern)
+
 ## Installation
 ```shell
 composer require haroon-mahmood-4276/laravel-service-pattern
