@@ -1,14 +1,9 @@
-# Laravel commands history
-A simple Laravel package to store every artisan command history with arguments and options in database.
-
-[![Packagist License](https://poser.pugx.org/haroon-mahmood-4276/laravel-commands-history/license.png)](http://choosealicense.com/licenses/mit/)
-[![Latest Stable Version](https://poser.pugx.org/haroon-mahmood-4276/laravel-commands-history/version.png)](https://packagist.org/packages/haroon-mahmood-4276/laravel-commands-history)
-[![Total Downloads](http://poser.pugx.org/haroon-mahmood-4276/laravel-commands-history/downloads)](https://packagist.org/packages/haroon-mahmood-4276/laravel-commands-history)
-[![PHP Version Require](http://poser.pugx.org/haroon-mahmood-4276/laravel-commands-history/require/php)](https://packagist.org/packages/haroon-mahmood-4276/laravel-commands-history)
+# Laravel Service Pattern
+A minimal package to implement Service Design Pattern in Laravel.
 
 ## Installation
 ```shell
-composer require haroon-mahmood-4276/laravel-commands-history
+composer require haroon-mahmood-4276/laravel-service-pattern
 ```
 
 Laravel uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
@@ -20,14 +15,15 @@ If laravel's auto-discovery doesn't work, add following lines in ```providers```
 */
 ...
 
-HaroonMahmood4276\LaravelCommandsHistory\CommandHistoryServiceProvider::class,
-HaroonMahmood4276\LaravelCommandsHistory\CommandEventServiceProvider::class,
+HaroonMahmood4276\LaravelServicePattern\PatternServiceProvider::class,
 ...
 ```
 
-## Migration
+## Command
+This command is used to implement Service Design Pattern in Laravel Project. It make a service class with interface. ```{--do-not-bind}``` is used to prevent service and interface binding in AppServiceProvider.php. ```{--without-interface}``` prevents the interface class to be created by this command.
+
 ```shell
-php artisan migrate
+php artisan make:service {name} {--do-not-bind} {--without-interface}
 ```
 
 ## Want to contribute

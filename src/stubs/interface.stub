@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Services\{{ namespace }};
+
+interface {{ interface }}
+{
+    public function getAll($ignore = null);
+
+    public function getById($id);
+
+    public function store($inputs);
+
+    public function update($id, $inputs);
+
+    public function destroy($inputs);
+}
