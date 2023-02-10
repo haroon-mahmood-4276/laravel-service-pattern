@@ -1,0 +1,31 @@
+{
+    "name": "haroon-mahmood-4276/laravel-service-pattern",
+    "description": "This package will implement service design pattern in laravel application.",
+    "type": "library",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HaroonMahmood4276\\LaravelServicePattern\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "haroon-mahmood-4276",
+        "email": "haroon.mahmood.4276@gmail.com"
+    }],
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HaroonMahmood4276\\LaravelServicePattern\\PatternServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
