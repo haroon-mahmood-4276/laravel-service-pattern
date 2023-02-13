@@ -4,11 +4,6 @@ namespace App\Services\{{ namespace }};
 
 class {{ service }} implements {{ interface }}
 {
-    private function model()
-    {
-        return new Booking();
-    }
-
     public function getAll($ignore = null)
     {
         //
