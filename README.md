@@ -31,6 +31,16 @@ This command is used to implement Service Design Pattern in Laravel Project. It 
 php artisan make:service {name} {--do-not-bind} {--without-interface}
 ```
 
+## How to use
+```shell
+protected $myInterface;
+
+public function __construct(MyInterface $myInterface)
+{
+  $this->myInterface = $myInterface;
+}
+```
+
 ## Want to contribute
 - Fork this repo.
 - Contribute in it.
