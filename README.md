@@ -1,5 +1,5 @@
 # Laravel Service Pattern
-A minimal package to implement Service Design Pattern in Laravel.
+A minimal package to implement Service Design Pattern in Laravel. It will also bind interface and service class in the ```AppServiceProvider.php```.
 
 [![Latest Stable Version](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/v)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern) 
 [![Total Downloads](http://poser.pugx.org/haroon-mahmood-4276/laravel-service-pattern/downloads)](https://packagist.org/packages/haroon-mahmood-4276/laravel-service-pattern) 
@@ -25,7 +25,7 @@ HaroonMahmood4276\LaravelServicePattern\PatternServiceProvider::class,
 ```
 
 ## Command
-This command is used to implement Service Design Pattern in Laravel Project. It make a service class with interface. ```{--do-not-bind}``` is used to prevent service and interface binding in AppServiceProvider.php. ```{--without-interface}``` prevents the interface class to be created by this command.
+This command is used to implement Service Design Pattern in Laravel Project. It make a service class with interface. ```{--do-not-bind}```(optional) is used to prevent service and interface binding in ```AppServiceProvider.php```. ```{--without-interface}```(optional) prevents the interface class to be created by this command.
 
 ```shell
 php artisan make:service {name} {--do-not-bind} {--without-interface}
