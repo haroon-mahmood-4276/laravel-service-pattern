@@ -3,6 +3,7 @@
     "description": "This package will implement service design pattern in laravel application.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["service", "laravel", "pattern", "design", "design-pattern", "service-pattern"],
     "authors": [{
         "name": "haroon-mahmood-4276",
         "email": "haroon.mahmood.4276@gmail.com"
