@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Services\{{ namespace }};
+use App\Models\{{ model }};
+
+class {{ service }} implements {{ interface }}
+{
+
+    private function model()
+    {
+        return (new {{ model }}());
+    }
+
+    public function getAll($ignore = null)
+    {
+        //
+    }
+
+    public function getById($id)
+    {
+        //
+    }
+
+    public function store($inputs)
+    {
+        //
+    }
+
+    public function update($id, $inputs)
+    {
+        //
+    }
+
+    public function destroy($inputs)
+    {
+        //
+    }
+}
